@@ -1,23 +1,19 @@
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
+
 export const Footer = () => {
   return (
     <footer className="bg-[#075985] text-white py-8">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-6 md:space-y-0">
-          <div className="text-center md:text-left">
-            <h2 className="text-2xl font-semibold">Indie Aluminium</h2>
-            <p className="mt-2 text-sm">
-              Penyedia aluminium terbaik dengan harga terjangkau dan kualitas
-              terjamin.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div className="flex flex-col items-center space-y-2 md:space-y-0 md:items-start md:flex-row md:gap-6">
-            <a href="#home" className="text-sm hover:underline">
+      <div className="max-w-6xl mx-auto space-y-4">
+        <div className="flex items-center justify-between mx-4 sm:mx-6">
+          <h2 className="text-2xl font-semibold text-left ">Indie Aluminium</h2>
+          <div className="space-x-2 sm:space-x-6 text-end ">
+            <a href="#home" className="text-sm hover:underline ">
               Home
             </a>
             <a href="#catalog" className="text-sm hover:underline">
-              Tentang Kami
+              About
             </a>
             <a href="#gallery" className="text-sm hover:underline">
               Gallery
@@ -25,21 +21,33 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media Links */}
-        <div className="mt-8 flex justify-center md:justify-between items-center">
-          <p className="text-xs">&copy; 2024 Indie Aluminium</p>
-          {/* <div className="flex gap-4">
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-facebook-f"></i>
+        <div className="flex items-center justify-between mx-4 sm:mx-6">
+          <p className="mt-2 mb-4 text-sm max-w-52 sm:max-w-lg">
+            Penyedia jasa aluminium yang memberikan jaminan kualitas terbaik
+            kepada konsumen. Harga yang bersaing, ketepatan waktu pengerjaan,
+            dan pemasangan yang baik.
+          </p>
+          <div className="flex gap-4 text-xl">
+            <a
+              href="https://www.instagram.com/andrianmac"
+              className="hover:text-gray-300"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://wa.me/+6282232166957"
+              className="hover:text-gray-300"
+            >
+              <FaWhatsapp />
             </a>
             <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-twitter"></i>
+              <IoMailOutline />
             </a>
-            <a href="#" className="hover:text-gray-300">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div> */}
+          </div>
         </div>
+        <p className="mx-4 sm:mx-6 text-xs text-center sm:text-end">
+          &copy;2024 Indie Aluminium
+        </p>
       </div>
     </footer>
   );
