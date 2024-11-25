@@ -1,7 +1,21 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import ViteImagemin from "vite-plugin-imagemin"; // import plugin lain
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [
+    react(),
+    ViteImagemin({
+      pngquant: {
+        quality: [0.6, 0.8],
+      },
+      gifsicle: {
+        optimizationLevel: 3,
+      },
+      // Tambahkan konversi ke WebP
+      webp: {
+        quality: 75, // Mengatur kualitas untuk WebP
+      },
+    }),
+  ],
+});

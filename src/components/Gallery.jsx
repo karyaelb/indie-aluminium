@@ -220,6 +220,7 @@ export const Gallery = () => {
       {
         src: "/kitchenset/20241115_120639.jpg",
         alt: "Slide Kitchen Set 1",
+        rel: "preload",
       },
       {
         src: "/kitchenset/20241115_120646.jpg",
