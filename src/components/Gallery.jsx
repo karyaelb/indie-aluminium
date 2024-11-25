@@ -364,7 +364,7 @@ export const Gallery = () => {
                       <img
                         src={images.sidoarjo[sidoarjoIndex].src}
                         alt={images.sidoarjo[sidoarjoIndex].alt}
-                        className="w-full h-full object-contain transition-all duration-500 hover:scale-110"
+                        className="w-full h-full object-contain hover:scale-110"
                         style={{
                           aspectRatio: "9 / 16",
                         }}
@@ -376,13 +376,13 @@ export const Gallery = () => {
                   </p>
                   <button
                     onClick={() => goToPrevious("sidoarjo")}
-                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❮
                   </button>
                   <button
                     onClick={() => goToNext("sidoarjo")}
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❯
                   </button>
@@ -416,7 +416,7 @@ export const Gallery = () => {
                       <img
                         src={images.surabaya[surabayaIndex].src}
                         alt={images.surabaya[surabayaIndex].alt}
-                        className="w-full h-full object-contain transition-all duration-500 hover:scale-110"
+                        className="w-full h-full object-contain hover:scale-110"
                         style={{
                           aspectRatio: "9 / 16",
                         }}
@@ -428,13 +428,13 @@ export const Gallery = () => {
                   </p>
                   <button
                     onClick={() => goToPrevious("surabaya")}
-                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❮
                   </button>
                   <button
                     onClick={() => goToNext("surabaya")}
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❯
                   </button>
@@ -468,7 +468,7 @@ export const Gallery = () => {
                       <img
                         src={images.malang[malangIndex].src}
                         alt={images.malang[malangIndex].alt}
-                        className="w-full h-full object-contain transition-all duration-500 hover:scale-110"
+                        className="w-full h-full object-contain hover:scale-110"
                         style={{
                           aspectRatio: "9 / 16",
                         }}
@@ -480,13 +480,13 @@ export const Gallery = () => {
                   </p>
                   <button
                     onClick={() => goToPrevious("malang")}
-                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❮
                   </button>
                   <button
                     onClick={() => goToNext("malang")}
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❯
                   </button>
@@ -519,7 +519,7 @@ export const Gallery = () => {
                       <img
                         src={images.kitchenSet[kitchenSetIndex].src}
                         alt={images.kitchenSet[kitchenSetIndex].alt}
-                        className="w-full h-full object-contain transition-all duration-500 hover:scale-110"
+                        className="w-full h-full object-contain hover:scale-110"
                         style={{
                           aspectRatio: "9 / 16",
                         }}
@@ -531,13 +531,13 @@ export const Gallery = () => {
                   </p>
                   <button
                     onClick={() => goToPrevious("kitchenSet")}
-                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❮
                   </button>
                   <button
                     onClick={() => goToNext("kitchenSet")}
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-lg sm:text-2xl bg-sky-800 hover:bg-sky-950 w-8 h-8 sm:w-12 sm:h-12 sm:p-0 rounded-full flex items-center justify-center"
                   >
                     ❯
                   </button>
