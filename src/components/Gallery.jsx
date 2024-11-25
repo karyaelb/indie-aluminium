@@ -5,248 +5,248 @@ export const Gallery = () => {
   const images = {
     sidoarjo: [
       {
-        src: "public/sidoarjo/20230822_164301.jpg",
+        src: "/sidoarjo/20230822_164301.jpg",
         alt: "Slide Sidoarjo 2",
       },
       {
-        src: "public/sidoarjo/20231109_164758.jpg",
+        src: "/sidoarjo/20231109_164758.jpg",
         alt: "Slide Sidoarjo 3",
       },
       {
-        src: "public/sidoarjo/20231110_170000.jpg",
+        src: "/sidoarjo/20231110_170000.jpg",
         alt: "Slide Sidoarjo 4",
       },
       {
-        src: "public/sidoarjo/20231110_170308.jpg",
+        src: "/sidoarjo/20231110_170308.jpg",
         alt: "Slide Sidoarjo 5",
       },
       {
-        src: "public/sidoarjo/produksda.jpeg",
+        src: "/sidoarjo/produksda.jpeg",
         alt: "Slide Sidoarjo 6",
       },
       {
-        src: "public/sidoarjo/produksda1.jpeg",
+        src: "/sidoarjo/produksda1.jpeg",
         alt: "Slide Sidoarjo 7",
       },
       {
-        src: "public/sidoarjo/20230609_131734.jpg",
+        src: "/sidoarjo/20230609_131734.jpg",
         alt: "Slide Sidoarjo 1",
       },
     ],
     surabaya: [
       {
-        src: "public/surabaya/20210512_155403.jpg",
+        src: "/surabaya/20210512_155403.jpg",
         alt: "Slide Surabaya 1",
       },
       {
-        src: "public/surabaya/20210621_194220.jpg",
+        src: "/surabaya/20210621_194220.jpg",
         alt: "Slide Surabaya 2",
       },
       {
-        src: "public/surabaya/20210902_142439.jpg",
+        src: "/surabaya/20210902_142439.jpg",
         alt: "Slide Surabaya 3 ",
       },
       {
-        src: "public/surabaya/20230114_184130.jpg",
+        src: "/surabaya/20230114_184130.jpg",
         alt: "Slide Surabaya 4 ",
       },
       {
-        src: "public/surabaya/20230506_160539.jpg",
+        src: "/surabaya/20230506_160539.jpg",
         alt: "Slide Surabaya 5",
       },
       {
-        src: "public/surabaya/20230831_120323.jpg",
+        src: "/surabaya/20230831_120323.jpg",
         alt: "Slide Surabaya 6 ",
       },
       {
-        src: "public/surabaya/20230831_120348.jpg",
+        src: "/surabaya/20230831_120348.jpg",
         alt: "Slide Surabaya 7 ",
       },
       {
-        src: "public/surabaya/20230831_164435.jpg",
+        src: "/surabaya/20230831_164435.jpg",
         alt: "Slide Surabaya 8",
       },
       {
-        src: "public/surabaya/20230901_152127.jpg",
+        src: "/surabaya/20230901_152127.jpg",
         alt: "Slide Surabaya 9",
       },
 
       {
-        src: "public/surabaya/20240713_132135.jpg",
+        src: "/surabaya/20240713_132135.jpg",
         alt: "Slide Surabaya 11 ",
       },
 
       {
-        src: "public/surabaya/20240907_142040.jpg",
+        src: "/surabaya/20240907_142040.jpg",
         alt: "Slide Surabaya 12 ",
       },
 
       {
-        src: "public/surabaya/20240920_102233.jpg",
+        src: "/surabaya/20240920_102233.jpg",
         alt: "Slide Surabaya 13 ",
       },
 
       {
-        src: "public/surabaya/20240920_102240.jpg",
+        src: "/surabaya/20240920_102240.jpg",
         alt: "Slide Surabaya 14 ",
       },
       {
-        src: "public/surabaya/20240920_102302.jpg",
+        src: "/surabaya/20240920_102302.jpg",
         alt: "Slide Surabaya 15 ",
       },
 
       {
-        src: "public/surabaya/20240920_102323.jpg",
+        src: "/surabaya/20240920_102323.jpg",
         alt: "Slide Surabaya 16 ",
       },
 
       {
-        src: "public/surabaya/20240920_102347.jpg",
+        src: "/surabaya/20240920_102347.jpg",
         alt: "Slide Surabaya 17 ",
       },
 
       {
-        src: "public/surabaya/20240920_102411.jpg",
+        src: "/surabaya/20240920_102411.jpg",
         alt: "Slide Surabaya 18 ",
       },
 
       {
-        src: "public/surabaya/20240923_101955.jpg",
+        src: "/surabaya/20240923_101955.jpg",
         alt: "Slide Surabaya 19 ",
       },
 
       {
-        src: "public/surabaya/20240930_115152.jpg",
+        src: "/surabaya/20240930_115152.jpg",
         alt: "Slide Surabaya 20 ",
       },
 
       {
-        src: "public/surabaya/20241005_111305.jpg",
+        src: "/surabaya/20241005_111305.jpg",
         alt: "Slide Surabaya 21 ",
       },
 
       {
-        src: "public/surabaya/IMG-20210704-WA0008.jpeg",
+        src: "/surabaya/IMG-20210704-WA0008.jpeg",
         alt: "Slide Surabaya 22 ",
       },
     ],
     malang: [
-      { src: "public/malang/20210806_102615.jpg", alt: "Slide Malang 1" },
-      { src: "public/malang/20210806_114639.jpg", alt: "Slide Malang 2" },
-      { src: "public/malang/20210806_164540.jpg", alt: "Slide Malang 3" },
-      { src: "public/malang/20210806_164605.jpg", alt: "Slide Malang 4" },
-      { src: "public/malang/20211019_153722.jpg", alt: "Slide Malang 5" },
-      { src: "public/malang/20211019_153850.jpg", alt: "Slide Malang 6" },
-      { src: "public/malang/20220823_101340.jpg", alt: "Slide Malang 7" },
-      { src: "public/malang/20220908_170901.jpg", alt: "Slide Malang 8" },
-      { src: "public/malang/20220908_185439.jpg", alt: "Slide Malang 9" },
-      { src: "public/malang/20221014_145922.jpg", alt: "Slide Malang 10" },
-      { src: "public/malang/20221014_150007.jpg", alt: "Slide Malang 11" },
-      { src: "public/malang/20221014_150033.jpg", alt: "Slide Malang 12" },
-      { src: "public/malang/20221014_150112.jpg", alt: "Slide Malang 13" },
-      { src: "public/malang/20221014_150140.jpg", alt: "Slide Malang 14" },
-      { src: "public/malang/20221014_150201.jpg", alt: "Slide Malang 15" },
-      { src: "public/malang/20221014_150226.jpg", alt: "Slide Malang 16" },
-      { src: "public/malang/20221014_152856.jpg", alt: "Slide Malang 17" },
-      { src: "public/malang/20221014_153315.jpg", alt: "Slide Malang 18" },
-      { src: "public/malang/20221017_145856.jpg", alt: "Slide Malang 19" },
-      { src: "public/malang/20221017_171056.jpg", alt: "Slide Malang 20" },
-      { src: "public/malang/20221017_180007.jpg", alt: "Slide Malang 21" },
-      { src: "public/malang/20221027_125353.jpg", alt: "Slide Malang 22" },
-      { src: "public/malang/20230304_125740.jpg", alt: "Slide Malang 23" },
-      { src: "public/malang/20230304_125945.jpg", alt: "Slide Malang 24" },
-      { src: "public/malang/20231121_111425.jpg", alt: "Slide Malang 25" },
-      { src: "public/malang/20231121_111449.jpg", alt: "Slide Malang 26" },
-      { src: "public/malang/20231121_111527.jpg", alt: "Slide Malang 27" },
-      { src: "public/malang/20231121_111604.jpg", alt: "Slide Malang 28" },
+      { src: "/malang/20210806_102615.jpg", alt: "Slide Malang 1" },
+      { src: "/malang/20210806_114639.jpg", alt: "Slide Malang 2" },
+      { src: "/malang/20210806_164540.jpg", alt: "Slide Malang 3" },
+      { src: "/malang/20210806_164605.jpg", alt: "Slide Malang 4" },
+      { src: "/malang/20211019_153722.jpg", alt: "Slide Malang 5" },
+      { src: "/malang/20211019_153850.jpg", alt: "Slide Malang 6" },
+      { src: "/malang/20220823_101340.jpg", alt: "Slide Malang 7" },
+      { src: "/malang/20220908_170901.jpg", alt: "Slide Malang 8" },
+      { src: "/malang/20220908_185439.jpg", alt: "Slide Malang 9" },
+      { src: "/malang/20221014_145922.jpg", alt: "Slide Malang 10" },
+      { src: "/malang/20221014_150007.jpg", alt: "Slide Malang 11" },
+      { src: "/malang/20221014_150033.jpg", alt: "Slide Malang 12" },
+      { src: "/malang/20221014_150112.jpg", alt: "Slide Malang 13" },
+      { src: "/malang/20221014_150140.jpg", alt: "Slide Malang 14" },
+      { src: "/malang/20221014_150201.jpg", alt: "Slide Malang 15" },
+      { src: "/malang/20221014_150226.jpg", alt: "Slide Malang 16" },
+      { src: "/malang/20221014_152856.jpg", alt: "Slide Malang 17" },
+      { src: "/malang/20221014_153315.jpg", alt: "Slide Malang 18" },
+      { src: "/malang/20221017_145856.jpg", alt: "Slide Malang 19" },
+      { src: "/malang/20221017_171056.jpg", alt: "Slide Malang 20" },
+      { src: "/malang/20221017_180007.jpg", alt: "Slide Malang 21" },
+      { src: "/malang/20221027_125353.jpg", alt: "Slide Malang 22" },
+      { src: "/malang/20230304_125740.jpg", alt: "Slide Malang 23" },
+      { src: "/malang/20230304_125945.jpg", alt: "Slide Malang 24" },
+      { src: "/malang/20231121_111425.jpg", alt: "Slide Malang 25" },
+      { src: "/malang/20231121_111449.jpg", alt: "Slide Malang 26" },
+      { src: "/malang/20231121_111527.jpg", alt: "Slide Malang 27" },
+      { src: "/malang/20231121_111604.jpg", alt: "Slide Malang 28" },
       {
-        src: "public/malang/IMG-20210921-WA0001.jpeg",
+        src: "/malang/IMG-20210921-WA0001.jpeg",
         alt: "Slide Malang 29",
       },
       {
-        src: "public/malang/IMG-20211228-WA0010.jpeg",
+        src: "/malang/IMG-20211228-WA0010.jpeg",
         alt: "Slide Malang 30",
       },
       {
-        src: "public/malang/IMG-20230305-WA0000.jpg",
+        src: "/malang/IMG-20230305-WA0000.jpg",
         alt: "Slide Malang 31",
       },
       {
-        src: "public/malang/IMG-20230305-WA0009.jpg",
+        src: "/malang/IMG-20230305-WA0009.jpg",
         alt: "Slide Malang 32",
       },
       {
-        src: "public/malang/IMG-20231115-WA0005.jpg",
+        src: "/malang/IMG-20231115-WA0005.jpg",
         alt: "Slide Malang 33",
       },
       {
-        src: "public/malang/IMG-20231115-WA0006.jpg",
+        src: "/malang/IMG-20231115-WA0006.jpg",
         alt: "Slide Malang 34",
       },
       {
-        src: "public/malang/IMG-20231115-WA0011.jpg",
+        src: "/malang/IMG-20231115-WA0011.jpg",
         alt: "Slide Malang 35",
       },
       {
-        src: "public/malang/IMG-20231115-WA0012.jpg",
+        src: "/malang/IMG-20231115-WA0012.jpg",
         alt: "Slide Malang 36",
       },
       {
-        src: "public/malang/IMG-20231115-WA0014.jpg",
+        src: "/malang/IMG-20231115-WA0014.jpg",
         alt: "Slide Malang 37",
       },
       {
-        src: "public/malang/IMG-20231115-WA0015.jpg",
+        src: "/malang/IMG-20231115-WA0015.jpg",
         alt: "Slide Malang 38",
       },
       {
-        src: "public/malang/IMG-20231115-WA0020.jpg",
+        src: "/malang/IMG-20231115-WA0020.jpg",
         alt: "Slide Malang 39",
       },
       {
-        src: "public/malang/IMG-20231115-WA0022.jpg",
+        src: "/malang/IMG-20231115-WA0022.jpg",
         alt: "Slide Malang 40",
       },
       {
-        src: "public/malang/IMG-20240207-WA0006.jpg",
+        src: "/malang/IMG-20240207-WA0006.jpg",
         alt: "Slide Malang 41",
       },
       {
-        src: "public/malang/IMG-20240207-WA0007.jpg",
+        src: "/malang/IMG-20240207-WA0007.jpg",
         alt: "Slide Malang 42",
       },
     ],
     kitchenSet: [
       {
-        src: "public/kitchenset/20241115_120639.jpg",
+        src: "/kitchenset/20241115_120639.jpg",
         alt: "Slide Kitchen Set 1",
       },
       {
-        src: "public/kitchenset/20241115_120646.jpg",
+        src: "/kitchenset/20241115_120646.jpg",
         alt: "Slide Kitchen Set 2",
       },
       {
-        src: "public/kitchenset/20241115_120713.jpg",
+        src: "/kitchenset/20241115_120713.jpg",
         alt: "Slide Kitchen Set 3",
       },
       {
-        src: "public/kitchenset/20241115_120722.jpg",
+        src: "/kitchenset/20241115_120722.jpg",
         alt: "Slide Kitchen Set 4",
       },
       {
-        src: "public/kitchenset/20211228_194321.jpg",
+        src: "/kitchenset/20211228_194321.jpg",
         alt: "Slide Kitchen Set 5",
       },
       {
-        src: "public/kitchenset/20211228_194558.jpg",
+        src: "/kitchenset/20211228_194558.jpg",
         alt: "Slide Kitchen Set 6",
       },
       {
-        src: "public/kitchenset/IMG_20211229_112612_450.webp",
+        src: "/kitchenset/IMG_20211229_112612_450.webp",
         alt: "Slide Kitchen Set 7",
       },
       {
-        src: "public/kitchenset/IMG_20211229_112616_879.webp",
+        src: "/kitchenset/IMG_20211229_112616_879.webp",
         alt: "Slide Kitchen Set 8",
       },
     ],
