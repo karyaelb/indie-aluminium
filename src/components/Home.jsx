@@ -7,7 +7,7 @@ export const Home = () => {
       <main id="home">
         <section className="relative w-full h-screen ">
           <img
-            src="/malang/20221014_150140.jpg"
+            src="/background.webp"
             alt="background"
             className="w-full h-full object-cover blur-[2px]"
           />
