@@ -14,9 +14,9 @@ const App = () => {
         jendela dan partisi lain. Menggunakan bahan aluminium yang berkualitas tinggi
         dengan beragam merk pilihan dan warna sesuai dengan selera dan
         kebutuhan yang anda inginkan."
-        icon="public/logo.jpg"
+        icon="/logo.jpg"
         openGraph={{
-          images: ["opengraph-image.png"],
+          images: ["logo.jpg"],
         }}
       />
       <Router>

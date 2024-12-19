@@ -1,3 +1,4 @@
+// Metadata.js
 import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 
@@ -26,10 +27,9 @@ Metadata.propTypes = {
 };
 
 Metadata.defaultProps = {
-  title: "Indie Aluminium",
-  description:
-    "Kami melayani pemasangan aluminium di Sidoarjo dan sekitarnya. Seperti pintu, kusen, jendela dan partisi lain dengan menggunakan bahan yang berkualitas tinggi dengan beragam merk pilihan dan warna sesuai dengan kebutuhan anda",
-  icon: "public/logo.jpg",
+  title: "Default Title",
+  description: "Default description for the page.",
+  icon: "/favicon.ico",
   openGraph: {
     images: ["opengraph-image.png"],
   },
