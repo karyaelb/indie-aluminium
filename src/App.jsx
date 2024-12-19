@@ -10,10 +10,8 @@ const App = () => {
     <>
       <Metadata
         title="Indie Aluminium"
-        description="Kami melayani pemasangan aluminium di Sidoarjo dan sekitarnya. Seperti pintu, kusen,
-        jendela dan partisi lain. Menggunakan bahan aluminium yang berkualitas tinggi
-        dengan beragam merk pilihan dan warna sesuai dengan selera dan
-        kebutuhan yang anda inginkan."
+        description="Kami melayani pemasangan aluminium seperti pintu, kusen,
+        jendela dan partisi lain di Sidoarjo dan sekitarnya."
         icon="/logo.jpg"
         openGraph={{
           images: ["logo.jpg"],
